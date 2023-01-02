@@ -8,7 +8,7 @@ const BLOG_URL = "https://www.riyawolf.com"; // 个人网站链接（请填写�
 
 const GITHUB = ""; // 右上角 Github 图标链接，留空不显示
 
-const BACKGROUND_IMG_URL = "/public/7136470.png"; // 背景图片url，默认为必应每日图片（第三方接口）
+const BACKGROUND_IMG_URL = "<%= BASE_URL %>7136470.png"; // 背景图片url，默认为必应每日图片（第三方接口）
 
 const SORT_DATA = [
   { sortId: 1, title: "我的页面" } 
@@ -23,7 +23,7 @@ const PAGES_DATA = [
     title: "RIYA-Pursuit of nature",
     subtitle: "记录生命的真谛",
     url: "https://www.riyawolf.com",
-    icon: "/public/favicon.ico"
+    icon: "<%= BASE_URL %>favicon.ico"
   },
   {
     pageId: 2,
